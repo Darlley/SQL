@@ -15,8 +15,3 @@ insert into cidade values	(1,"Campo Grande"),
 							(8, "Bonito"),
 							(9, "Paranaíba");
 select * from cidade;
-
-update cidade
-set nomeCidade = "Cassilândia"
-where CodCidade = 9;
-select * from cidade;
