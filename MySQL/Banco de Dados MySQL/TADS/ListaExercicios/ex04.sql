@@ -1,17 +1,20 @@
+/*CÓDIGO DDL*/
 create database exercicio04;
 
 create table cidade (
 	CodCidade int primary key not null,
-    nomeCidade varchar(15)
+	nomeCidade varchar(15)
 );
 
+
+/*CÓDIGO DML*/
 insert into cidade values	(1,"Campo Grande"),
-							(2, "Dourados"),
-							(3, "Corumbá"),
-							(4, "Três Lagoas"),
-							(5, "Ponta Porã"),
-							(6, "Rio Verde"),
-							(7, "Porto Murtinho"),
-							(8, "Bonito"),
-							(9, "Paranaíba");
+				(2, "Dourados"),
+				(3, "Corumbá"),
+				(4, "Três Lagoas"),
+				(5, "Ponta Porã"),
+				(6, "Rio Verde"),
+				(7, "Porto Murtinho"),
+				(8, "Bonito"),
+				(9, "Paranaíba");
 select * from cidade;
